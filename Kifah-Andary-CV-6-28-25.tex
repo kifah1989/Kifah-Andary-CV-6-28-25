@@ -1,0 +1,217 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Kifah Andary} \\ \vspace{5pt}
+    \small \raisebox{-0.1\height}\faPhone\ +961-71-173034 ~ \href{mailto:kifah.andary@gmail.com}{\raisebox{-0.1\height}\faEnvelope\  \underline{kifah.andary@gmail.com}} ~ 
+    \href{https://www.linkedin.com/in/kifahandary/}{\raisebox{-0.1\height}\faLinkedin\ \underline{linkedin.com/in/kifahandary}} ~
+    \href{https://github.com/kifah1989}{\raisebox{-0.1\height}\faGithub\ \underline{github.com/kifah1989}} ~ 
+    \raisebox{-0.1\height}\faMapMarker*{~}Abadieh, Lebanon
+\end{center}
+
+
+%-----------PROFILE SUMMARY-----------
+\section{Profile Summary}
+\resumeSubHeadingListStart
+    \resumeItem{Full Stack Developer with 7+ years of experience specializing in Web3 DApp development, smart contract programming, and enterprise-level ERP solutions.}
+    \resumeItem{Proven track record of delivering high-performance applications processing millions in transaction volume with zero security incidents.}
+    \resumeItem{Expert in modern tech stacks including Java Spring Boot, Angular, React, Node.js, and Solidity with strong focus on scalable architecture.}
+    \resumeItem{Experienced in leading cross-functional teams and collaborating with stakeholders to deliver complex projects on time.}
+\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+    {Full Stack Developer - Remote}{Dec 2024 - Present}
+    {ERP Data Systems | UAE}{}
+    \resumeItemListStart
+        \resumeItem{Developed and maintained enterprise-level ERP software solutions for the UAE market, enhancing core system functionality and user experience.}
+        \resumeItem{Built scalable full-stack applications using a Java Spring Boot backend and an Angular TypeScript frontend.}
+        \resumeItem{Designed and implemented complex database schemas with JPA/Hibernate, managing critical business data and entity relationships.}
+        \resumeItem{Created RESTful APIs and a microservices architecture to ensure seamless integration between ERP modules and external systems.}
+        \resumeItem{Developed responsive and intuitive user interfaces for efficient business process management using modern UI frameworks.}
+    \resumeItemListEnd
+    
+  \resumeSubheading
+    {Web3 Full Stack Developer}{2021 - Nov 2024}
+    {Aether | Lebanon}{}
+    \resumeItemListStart
+        \resumeItem{Designed, developed, and maintained decentralized applications (DApps) on the Ethereum blockchain using the MERN stack.}
+        \resumeItem{Authored, tested, and deployed secure and efficient Solidity smart contracts, implementing complex business logic to automate DApp operations.}
+        \resumeItem{Collaborated with UX/UI designers to create intuitive and responsive user interfaces, ensuring cross-browser compatibility.}
+        \resumeItem{Worked closely with project managers, developers, and stakeholders to deliver projects on time.}
+        \resumeItem{\textbf{Key Achievement:} Successfully launched multiple high-impact DApps that have processed millions of dollars in transactions, significantly improving client operational efficiency and user satisfaction.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Full Stack Web2 Developer - Remote}{Jun 2017 - Jul 2017}
+    {Remote Summer Job | Canada}{}
+    \resumeItemListStart
+        \resumeItem{Developed Angular web applications integrated with Azure Functions and other REST APIs for MongoDB, social media logins, and various services.}
+        \resumeItem{Liaised with back-end developers, front-end developers, quality assurance testers, and the CTO.}
+        \resumeItem{Managed time-sensitive updates, including content changes and database upgrades.}
+        \resumeItem{\textbf{Key Achievements:} Demonstrated significant adaptability to evolving codebases and requirements, and a rapid learning curve with new libraries and dependencies.}
+    \resumeItemListEnd
+    
+  \resumeSubheading
+    {Information Technology Officer}{2015 - 2017}
+    {24pluse.ae - UAE}{}
+    \resumeItemListStart
+        \resumeItem{Provided comprehensive IT support and managed financial data systems, gaining foundational experience in enterprise software.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Arab Open University}{Lebanon}
+    {M.Sc. in Information Security \& Forensics (Incomplete)}{2015 - 2016}
+    \resumeItemListStart
+        \resumeItem{Completed 1.5 years of graduate-level coursework: Digital Forensics, Network Security, Data Management, Kali Linux, Python, Fundamentals of Computer Networking.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Arab Open University}{Lebanon}
+    {B.Sc. in Information Technology \& Computing (Software Engineering)}{2010 - 2014}
+    \resumeItemListStart
+        \resumeItem{Coursework: Computer Programming in C, Data Computing \& Information, Information \& Communication Technology.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Key Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Enterprise ERP System} $|$ \emph{Java Spring Boot, Angular, PostgreSQL}}{2024 - Present}
+        \resumeItemListStart
+            \resumeItem{Architected and developed a comprehensive ERP solution handling inventory, finance, and HR modules}
+            \resumeItem{Implemented microservices architecture serving 1000+ concurrent users}
+        \resumeItemListEnd
+    \resumeProjectHeading
+        {\textbf{DeFi Trading Platform} $|$ \emph{React, Node.js, Solidity, Ethereum}}{2022 - 2023}
+        \resumeItemListStart
+            \resumeItem{Built a decentralized trading platform with automated market maker functionality}
+            \resumeItem{Processed over \$5M in trading volume with zero security incidents}
+        \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------SKILLS-----------
+\section{Skills}
+\resumeSubHeadingListStart
+    \resumeItem{
+        \textbf{Programming Languages:}{ Java, TypeScript, JavaScript, Solidity, Python, C, HTML5, CSS3, SQL}
+    }
+    \resumeItem{
+        \textbf{Frontend Technologies:}{ Angular, React, Next.js, HTML5, CSS3, Bootstrap, Tailwind CSS, Material-UI}
+    }
+    \resumeItem{
+        \textbf{Backend Technologies:}{ Node.js, Express.js, Spring Boot, Spring MVC, RESTful APIs, GraphQL}
+    }
+    \resumeItem{
+        \textbf{Databases \& Storage:}{ MongoDB, PostgreSQL, MySQL, JPA/Hibernate, Entity Modeling}
+    }
+    \resumeItem{
+        \textbf{Web3 \& Blockchain:}{ Ethereum, Solidity, Smart Contracts, DApp Development, Web3.js, Ethers.js, MetaMask Integration}
+    }
+    \resumeItem{
+        \textbf{DevOps \& Tools:}{ Git, Maven, Docker, AWS, Azure Functions, CI/CD, Postman, VS Code}
+    }
+    \resumeItem{
+        \textbf{Architecture \& Methodologies:}{ MVC, MVVM, Microservices, RESTful Design, Agile/Scrum}
+    }
+\resumeSubHeadingListEnd
+
+
+\end{document}
