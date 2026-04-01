@@ -1,0 +1,127 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{xcolor}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.35in}
+\setlength{\footskip}{5pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\normalsize
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{
+  \item\small{{#1 \vspace{-3pt}}}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-8pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.18in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-6pt}}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \scshape Kifah Andary} \\ \vspace{4pt}
+    \small Full Stack Developer \textbar\ Enterprise SaaS, Web3, Secure Backend Systems \\ \vspace{3pt}
+    \small \raisebox{-0.1\height}\faPhone\ +961-71-173034 ~ \href{mailto:kifah.andary@gmail.com}{\raisebox{-0.1\height}\faEnvelope\ \underline{kifah.andary@gmail.com}} ~
+    \href{https://www.linkedin.com/in/kifahandary/}{\raisebox{-0.1\height}\faLinkedin\ \underline{linkedin.com/in/kifahandary}} ~
+    \href{https://github.com/kifah1989}{\raisebox{-0.1\height}\faGithub\ \underline{github.com/kifah1989}}
+\end{center}
+
+\section{Summary}
+\resumeSubHeadingListStart
+  \resumeItem{Full Stack Developer with 5+ years of experience building enterprise SaaS platforms, secure web applications, and Ethereum-based products across Java Spring Boot, Angular, React, Node.js, PostgreSQL, and Solidity.}
+  \resumeItem{Known for improving performance, hardening security, and shipping production systems, including ERP solutions for UAE B2B clients and live blockchain applications with zero reported security incidents.}
+\resumeSubHeadingListEnd
+
+\section{Core Skills}
+\resumeSubHeadingListStart
+  \resumeItem{\textbf{Core Stack:} Java, Spring Boot, Angular, React, Node.js, PostgreSQL, REST APIs, TypeScript, JavaScript}
+  \resumeItem{\textbf{Backend \& Data:} Spring MVC, Express.js, JPA/Hibernate, Liquibase, MySQL, MongoDB, SQL, GraphQL}
+  \resumeItem{\textbf{Web3:} Solidity, Ethereum, Smart Contracts, DApp Development, Web3.js, Ethers.js, MetaMask Integration}
+  \resumeItem{\textbf{Tools:} AWS, Azure Functions, Docker, Git, Maven, CI/CD, Agile/Scrum}
+\resumeSubHeadingListEnd
+
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Full Stack Developer - Remote}{Dec 2024 -- Mar 2026}
+    {ERP Data Systems | UAE}{}
+    \resumeItemListStart
+      \resumeItem{Delivered and enhanced a multi-module ERP platform covering Accounting, Inventory, Project, Procurement, and HR workflows for UAE B2B clients.}
+      \resumeItem{Built full-stack features in Spring Boot and Angular, designed database models with JPA/Hibernate and Liquibase, and helped ship production-ready releases in a 5-person team.}
+      \resumeItem{Resolved legacy N+1 query bottlenecks, redesigned search and pagination around optimized backend queries, and improved day-to-day application responsiveness.}
+      \resumeItem{Strengthened security by removing hardcoded secrets, moving credentials to AWS Secrets Manager, hashing stored passwords, and building an AI chatbot for natural-language SQL data access.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Web3 Full Stack Developer}{Dec 2021 -- Nov 2024}
+    {Aether | Lebanon}{}
+    \resumeItemListStart
+      \resumeItem{Designed and maintained Ethereum-based DApps using the MERN stack, delivering production-ready user experiences tied to live blockchain transactions.}
+      \resumeItem{Authored, tested, and deployed Solidity smart contracts implementing business-critical token and transaction logic with strong reliability and security practices.}
+      \resumeItem{Launched and maintained production DApps, including smart contracts for the HILO token listed on CoinMarketCap, with zero reported security incidents.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Independent Developer \& Contract Roles}{2017 -- 2021}
+    {Lebanon / Remote}{}
+    \resumeItemListStart
+      \resumeItem{Built personal full-stack projects and delivered contract Angular work integrated with Azure Functions, REST APIs, MongoDB, and social authentication flows.}
+      \resumeItem{Deepened practical expertise in React, Angular, Node.js, Solidity, and Ethereum, creating the foundation for transition into professional full-stack and Web3 roles.}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Information Technology Officer}{2015 -- 2017}
+    {24pluse.ae | UAE}{}
+    \resumeItemListStart
+      \resumeItem{Provided IT operations support and managed financial data systems, building early enterprise software and systems reliability experience.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\section{Education \& Certification}
+\resumeSubHeadingListStart
+  \resumeItem{\textbf{Arab Open University} -- B.Sc. in Information Technology \& Computing (Software Engineering), 2010 -- 2014}
+  \resumeItem{Graduate coursework in Information Security \& Forensics, 2015 -- 2016}
+  \resumeItem{\textbf{Certification:} Cisco CCNA, 2014}
+\resumeSubHeadingListEnd
+
+\end{document}
